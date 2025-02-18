@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextTally</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Text Tally </h1>
+        <p class="description">Check text length, count vowels, and spot consonants instantly!</p>
+        <input type="text" placeholder="Enter String" id="input_str">
+        <div id="disp_clear">
+            <button class="disp_cls_btn" onclick="show_input()">Submit</button>
+            <button class="disp_cls_btn" onclick="discard_input()">Reset</button>
+        </div>
+        <p id="len_str" class="description"></p>
+        <p id="count_consonant" class="description"></p>
+        <p id="count_vowel" class="description"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
